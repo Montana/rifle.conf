@@ -144,7 +144,16 @@ By default, `ranger` will mostly preview PDF files as text, similar to that of a
 
 _NB_: Try not to push to a `dirty tree` if you can help it, this could add `rifle.conf` problems, that you don't want, and cause you to have to `git reflog`, or `pop` your current `stash`. 
 
-To enable this feature, uncomment the appropriate lines in `/usr/share/doc/ranger/config/scope.sh`, or add/uncomment these lines in your local file `~/.config/ranger/scope.sh`. You also want to make sure the proper permissions are set via `chmod`. 
+To enable this feature, uncomment the appropriate lines in `/usr/share/doc/ranger/config/scope.sh`, or add/uncomment these lines in your local file `~/.config/ranger/scope.sh`. You also want to make sure the proper permissions are set via `chmod u+x`. 
+
+You can do a cursory check on `scope.sh` via running: 
+
+```bash
+cat ~/.config/ranger/scope.sh
+```
+![scope](scope.png)
+
+You can either `cat` scope.sh, or `vim` scope.sh. I prefer just to run `cat`. 
 
 ### Authors 
 Montana Mendy - [Montana](https://github.com/Montana)
