@@ -35,7 +35,7 @@ To use my [`rifle.conf`](https://github.com/Montana/rifle.conf/blob/main/rifle.c
 vim ~/.config/ranger/rifle.conf
 ```
 
-The `rifle.conf` is structured as so, each line provides a set of conditions separated by commas (`,`) e.g. `ext mp3`, followed by an equals `=`, then a terminal command, e.g. vlc `$@`. When Ranger is asked to open a file, it cycles through every line from top to bottom until it finds a line where all the conditions are met, you can logically think of this like `grep`, Ranger then, runs the terminal command. This means that the top-most line where all the conditions are met will be run. Using this logic you can construct a `rifle.conf` that works on different systems, (e.g. Linux, macOS), that is, f you order potential applications from most to least preferred.
+The `rifle.conf` is structured as so, each line provides a set of conditions separated by commas (`,`) e.g. `ext mp3`, followed by an equals `=`, then a terminal command, e.g. vlc `$@`. When Ranger is asked to open a file, it cycles through every line from top to bottom until it finds a line where all the conditions are met, you can logically think of this like `grep`, Ranger then, runs the terminal command. This means that the top-most line where all the conditions are met will be run. Using this logic you can construct a `rifle.conf` that works on different systems, (e.g. Linux, macOS), that is, if you order potential applications from most to least preferred.
 
 ![Ranger](ranger.png)
 > When `ranger` first is called
