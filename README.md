@@ -129,6 +129,7 @@ You can toggle the visibility of hidden files, specifically files that begin wit
 rc.conf
 set show_hidden true
 ```
+![true](true.png)
 
 ## Multi tab in the same folder using ranger 
 
