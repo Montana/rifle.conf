@@ -84,3 +84,13 @@ Try and split up your `rifle.conf`. You'll see I did this, it will help for you 
 ext xml|json|tex|py|pl|rb|js|sh|php|m[ark]d[own]|txt = vim "$@"
 mime ^text = vim "$@"
 ```
+## Nested directories (directory flattening)
+
+In the following example, I have a moderately nested directory tree entitled `fable-react`. So in turn, I'll use `:flat`, this allows me to browse a directory tree in a linear fashion, the screenshot below is an example, it's a `tmux`, `vim` and `ranger` config: 
+
+![tmux](tmux.png) 
+> tmux, vim, ranger, `fable-react` directory tree
+
+It is worth noting, how your directory tree is flattened is determined with `rifle`.
+
+- Author Montana Mendy
