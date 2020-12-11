@@ -114,5 +114,24 @@ class empty(Command):
 
 You can imagine you could have endless commands and conditionals. My current setup has some custom commands, but to really have the most options I'm currently running `tmux`, `vim` and `ranger` for all my programming projects.
 
+## Hidden files
+
+You can toggle the visibility of hidden files, specifically files that begin with `.`, e.g. `.travis.yml`,  with the following command: `:set show_hidden!`, or alternatively use `:set show_hidden true` to make hidden files visible, remember this is dependent on the `rifle.conf`. 
+
+```bash
+rc.conf
+set show_hidden true
+```
+
+## Multi tab in the same folder using ranger 
+
+You may have noticed there are two shortcuts for opening a new tab in home in my `rifle.conf` (`gn` and `Ctrl+n`). Let us rebind `Ctrl+n`:
+
+```bash
+map <c-n>  eval fm.tab_new('%d')
+```
+
+To make this permanent, add the setting to your configuration file:
+
 ### Authors 
 Montana Mendy - [Montana](https://github.com/Montana)
