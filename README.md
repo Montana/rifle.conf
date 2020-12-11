@@ -93,5 +93,22 @@ In the following example, I have a moderately nested directory tree entitled `fa
 
 It is worth noting, how your directory tree is flattened is determined with `rifle`.
 
+## Defining commands
+
+You can define your own set of `commands`, for example, add the following entry to ~/.config/ranger/commands.py to empty the trash directory ~/.Trash.
+
+```python
+class empty(Command):
+    """:empty
+
+    Empties the trash directory ~/.Trash
+    """
+
+    def execute(self):
+        self.fm.run("rm -rf /home/myname/.Trash/{*,.[^.]*}")
+```
+
+You can imagine you could have endless commands and conditionals. My current setup has some custom commands, but to really have the most options I'm currently running `tmux`, `vim` and `ranger` for all my programming projects.
+
 ### Authors 
-Montana Mendy
+Montana Mendy - [Montana](https://github.com/Montana)
