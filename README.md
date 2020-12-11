@@ -1,6 +1,10 @@
 # Montana's rifle.conf 
 
-My customized/personal rifle.conf (customized for macOS) for ranger. Ranger is a console file manager with `VI` key bindings.
+My customized/personal rifle.conf (customized for macOS) for ranger. Ranger is a console file manager with `VI` key bindings. To grab it, you'll just want to clone it: 
+
+```bash
+git clone https://www.github.com/Montana/rifle.conf
+```
 
 ## Ranger installation on macOS 
 
@@ -25,7 +29,7 @@ ranger
 
 ## Getting started 
 
-To use my `rifle.conf` you can start by cloning it via: `git clone https://www.github.com/Montana/rifle.conf`. Once you've cloned it, open the `rifle.conf` with your editor of choice, in this markdown though I'll be using Vim. 
+To use my [`rifle.conf`](https://github.com/Montana/rifle.conf/blob/main/rifle.conf) you can start by cloning it via: `git clone https://www.github.com/Montana/rifle.conf`. Once you've cloned it, open the `rifle.conf` with your editor of choice, in this markdown though I'll be using Vim. 
 
 ```bash
 vim ~/.config/ranger/rifle.conf
