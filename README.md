@@ -21,6 +21,13 @@ brew install ranger
 ranger --copy-config=all
 ```
 
+### Using `pip` to install `ranger` 
+
+```bash
+pip install ranger-fm --user
+``` 
+## Getting started with Ranger
+
 You can now open `ranger` by simply running `ranger` in the terminal like so: 
 
 ```bash
