@@ -138,6 +138,13 @@ You may have noticed there are two shortcuts for opening a new tab in home in my
 ```bash
 map <c-n>  eval fm.tab_new('%d')
 ```
+# Ranger config PDF scope 
+
+By default, `ranger` will mostly preview PDF files as text, similar to that of a `docx`. However, you can `preview` PDF files as an image in `ranger` by first converting the PDF file to an image. Ranger stores the image previews in `~/.cache/ranger/.` You either need to create this directory manually (via `mkdir`) or set `preview_images` to `true` in `~/.config/ranger/rc.conf` to tell `ranger` to call it automatically at `ranger's` next start. However, note that `preview_images`. Note this does not need to be set to `true` the whole time to preview PDF file as images, only `~/.cache/ranger` directory is needed.
+
+_NB_: Try not to push to a `dirty tree` if you can help it, this could add `rifle.conf` problems, that you don't want, and cause you to have to `git reflog`, or `pop` your current `stash`. 
+
+To enable this feature, uncomment the appropriate lines in `/usr/share/doc/ranger/config/scope.sh`, or add/uncomment these lines in your local file `~/.config/ranger/scope.sh`. You also want to make sure the proper permissions are set via `chmod`. 
 
 ### Authors 
 Montana Mendy - [Montana](https://github.com/Montana)
