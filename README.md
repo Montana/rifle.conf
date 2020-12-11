@@ -131,7 +131,5 @@ You may have noticed there are two shortcuts for opening a new tab in home in my
 map <c-n>  eval fm.tab_new('%d')
 ```
 
-To make this permanent, add the setting to your configuration file:
-
 ### Authors 
 Montana Mendy - [Montana](https://github.com/Montana)
