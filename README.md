@@ -93,4 +93,5 @@ In the following example, I have a moderately nested directory tree entitled `fa
 
 It is worth noting, how your directory tree is flattened is determined with `rifle`.
 
-- Author Montana Mendy
+### Authors 
+Montana Mendy
