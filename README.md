@@ -153,7 +153,7 @@ cat ~/.config/ranger/scope.sh
 ```
 ![scope](scope.png)
 
-You can either `cat` scope.sh, or `vim` scope.sh. I prefer just to run `cat`. 
+You can either `cat` scope.sh, or `vim` scope.sh. I prefer just to run `cat` or `gedit`. 
 
 ### Authors 
 Montana Mendy - [Montana](https://github.com/Montana)
